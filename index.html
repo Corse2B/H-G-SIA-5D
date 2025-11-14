@@ -96,18 +96,20 @@ En conclusion, les éléphants sont des créatures extraordinaires, dont l'intel
   header {
   position: sticky;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%); /* centre parfaitement */
-  width: 100%;                /* occupe toute la largeur */
-  background-color: #0A2A43;  /* même couleur que le body */
-  padding: 10px 0;            /* espace intérieur */      
-  text-align: center;          /* centre horizontalement tout le contenu */
-  z-index: 1000;              /* passe au-dessus de tout */
-  border-bottom: 2px solid #EFA64B; /* option : jolie ligne */
+  width: 100%;                 /* prend toute la largeur */
+  background-color: #0A2A43;
+  padding: 10px 20px;          /* espace interne */
+  text-align: center;           /* centre le texte */
+  z-index: 1000;               /* au-dessus du contenu */
+  border-bottom: 2px solid #EFA64B;
+  box-sizing: border-box;       /* padding inclus dans la largeur */
 }
-   
 
-
+header h1,
+header h2 {
+  margin: 0;                    /* supprime marges par défaut */
+  text-align: center;           /* assure le centrage */
+}
   
  </style>
  </body>
