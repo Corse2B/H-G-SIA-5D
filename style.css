@@ -18,6 +18,7 @@ body{
   background-color:#2F4E69;
   padding:5px;
   margin:10px;
+  text-align:right;
   }
   #content{
   position: static;
