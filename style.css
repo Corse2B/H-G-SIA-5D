@@ -13,11 +13,13 @@ body{
   #Lang:hover{
   background-color:#2A3F55;
   }
-  #menu1{
+  details{
   border-radius: 10px; /* chatgtp */
   background-color:#2F4E69;
   padding:5px;
-  margin:10px;         
+  margin:10px;
+  position: sticky;
+  left:50%
   }
   #content{
   position: static;
