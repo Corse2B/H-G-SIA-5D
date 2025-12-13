@@ -49,12 +49,12 @@ body{
   display: flex;
   gap: 10px;
 }
-#menu1 summary::after {
-  content: "⌄";
+#menu1 summary::before {
+  content: "◆";
 }
 
-#menu1[open] summary::after {
-  content: "›";
+#menu1[open] summary::before {
+  content: "◇";
 }
 #menu1 summary {
   display: flex;
