@@ -27,27 +27,28 @@ body{
   margin-right: 250px;
   margin-bottom: 0px;
   }
-/* Supprime le triangle et le texte par défaut */
+/* enlève le triangle */
 #menu1 summary {
   list-style: none;
   cursor: pointer;
 }
 
-/* Cache le texte généré par le navigateur */
 #menu1 summary::-webkit-details-marker {
   display: none;
 }
 
-/* Style du bouton Lang */
-#menu1 summary {
-  font-weight: bold;
-  user-select: none;
+/* cache les langues par défaut */
+#menu1 .lang-container {
+  display: none;
+  margin-top: 6px;
 }
 
-/* Cache le contenu quand fermé */
-#menu1:not([open]) .lang-container {
-  display: none;
+/* affiche quand ouvert */
+#menu1[open] .lang-container {
+  display: flex;
+  gap: 10px;
 }
+
 
   #content{
   position: static;
