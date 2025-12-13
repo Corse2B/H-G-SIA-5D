@@ -27,6 +27,28 @@ body{
   margin-right: 250px;
   margin-bottom: 0px;
   }
+/* Supprime le triangle et le texte par défaut */
+#menu1 summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+/* Cache le texte généré par le navigateur */
+#menu1 summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Style du bouton Lang */
+#menu1 summary {
+  font-weight: bold;
+  user-select: none;
+}
+
+/* Cache le contenu quand fermé */
+#menu1:not([open]) .lang-container {
+  display: none;
+}
+
   #content{
   position: static;
   margin:10px auto;
