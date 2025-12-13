@@ -48,6 +48,13 @@ body{
   display: flex;
   gap: 10px;
 }
+#menu1 summary::after {
+  content: " ▾";
+}
+
+#menu1[open] summary::after {
+  content: " ▴";
+}
 
 
   #content{
