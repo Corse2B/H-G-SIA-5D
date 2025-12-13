@@ -51,6 +51,8 @@ summary { list-style: none; }
 #menu1[open] .lang-container {
   display: flex;
   gap: 10px;
+   justify-content: center; /* centre horizontalement */
+  align-items: center;
 }
 #menu1 summary::before {
   content: "◆";
