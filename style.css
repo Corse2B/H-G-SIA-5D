@@ -194,3 +194,8 @@ header h2 {
 .no-scroll {
   overflow: hidden;
 }
+/* effet blur */
+#page.blur {
+  filter: blur(6px);
+  transition: filter 0.3s ease;
+}
