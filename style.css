@@ -16,7 +16,6 @@ body{
 details {
   position: static;
   margin: 0;
-  left:50%;
 }
   .Lang{
   background-color:#2F4E69;
@@ -28,6 +27,7 @@ details {
   }
   #menu1 {
   text-align: center;
+  margin-right:250px;
   }
   .Lang:hover{
   background-color:#2A3F55;
