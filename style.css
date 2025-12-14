@@ -191,3 +191,6 @@ header h2 {
   background: #EFA64B;
   color: #0A2A43;
 }
+.no-scroll {
+  overflow: hidden;
+}
