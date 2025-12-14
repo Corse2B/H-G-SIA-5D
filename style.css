@@ -224,7 +224,7 @@ border-color: #EFA64B;
   border-radius: 15px;
   margin: 10px;
   border-color: #EFA64B;
-
+font-color:#EFA64B;
 }
 #e-mail{
 position:sticky;
@@ -233,6 +233,11 @@ background-color:#2F4E69;
 padding:5px;
 margin:10px;
 border-color: #EFA64B;
+ font-size: 20px;
+  line-height: 1.5;
+  padding: 12px;
+  font-family: inherit;
+  font-color:#EFA64B;
 }
 #Message{
 position:sticky;
@@ -243,6 +248,11 @@ width:60%;
 height:auto;
 border-color: #EFA64B;
 margin-top: 10px;
+ font-size: 20px;
+  line-height: 1.5;
+  padding: 12px;
+  font-family: inherit;
+  font-color:#EFA64B;
 }
 form{
 position:sticky;
