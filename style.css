@@ -16,7 +16,7 @@ body{
 details {
   position: static;
   margin: 0;
-  font-size: 16px;      /* même taille que Lang */
+  font-size: 20px;      /* même taille que Lang */
   font-weight: bold;
 }
   .Lang{
@@ -274,7 +274,8 @@ position:sticky;
   margin-right: 10px;
   margin-bottom: 0px;
   font-weight: bold;
-  color: #EFA64B;  
+  color: #EFA64B;
+  text-decoration: none;
 }
 #LienForm:hover {
   background-color: #2A3F55;
