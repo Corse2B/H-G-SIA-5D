@@ -239,13 +239,13 @@ border-color: #EFA64B;
   padding: 12px;
   font-family: inherit;
 color:#EFA64B;
+width:750px;
 }
 #Message{
 position:sticky;
 border-radius: 15px; 
 background-color:#2F4E69;
 padding:5px;
-width:60%;
 height:auto;
 border-color: #EFA64B;
 margin-top: 10px;
@@ -254,6 +254,7 @@ margin-top: 10px;
   padding: 12px;
   font-family: inherit;
  color:#EFA64B;
+  width:750px;
 }
 form{
 position:sticky;
