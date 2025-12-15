@@ -160,6 +160,7 @@ summary { list-style: none; }
   text-align: center;
   margin: 10px auto; /* <--- ceci centre horizontalement */
   position: static;
+  margin-bottom: 70%;
   }
   header {
   position: sticky;
