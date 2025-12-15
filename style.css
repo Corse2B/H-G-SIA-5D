@@ -266,12 +266,10 @@ position:sticky;
   border-radius: 10px; 
   background-color:#2F4E69;
   padding:5px;
-  margin:10px;
   position: sticky;
   margin-left: auto;
   margin-right: 10px;
-  margin-bottom: 0px;
-  font-weight: bold;
+  margin-bottom: 3px;
   color: #EFA64B;
   text-decoration: none;
   font-size: 20px;      /* même taille que Lang */
