@@ -257,8 +257,6 @@ margin-top: 10px;
 }
 form{
 position:sticky;
-font-size: 15px;
-font-weight: bold;
 }
 #LienForm{
   top: 0;
@@ -271,6 +269,8 @@ font-weight: bold;
   margin-left: auto;
   margin-right: 10px;
   margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: bold;
   }
 #LienForm {
   display: inline-block;
