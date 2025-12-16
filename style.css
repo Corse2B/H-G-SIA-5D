@@ -11,7 +11,7 @@ body{
   gap: 15px;
   margin-top: 10px;
 }
-#LienForm,
+.LienForm,
 #menu1,
 details {
   position: static;
@@ -261,7 +261,7 @@ margin-top: 10px;
 form{
 position:sticky;
 }
-#LienForm{
+.LienForm{
    display: inline-block;
   top: 0;
   width: 100px;
@@ -285,7 +285,7 @@ position:sticky;
   50%  { color:#2F4E69;} 
   100% { background: #2F4E69; }
 }
-#LienForm:hover {
+.LienForm:hover {
   background-color: #2A3F55;
 }
 
