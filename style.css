@@ -28,15 +28,18 @@ border-radius: 15px;
 margin: 10px;
 background-color:#2F4E69;
 z-index:-1;
-}
-.photo {
 transition: transform 0.3s ease;
-z-index:5000;
+
 }
 
 .photo.active {
-  transform: scale(1.5);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.8);
+  z-index: 4000;   /* au-dessus de l’overlay */
 }
+
 
   .Lang{
   background-color:#2F4E69;
