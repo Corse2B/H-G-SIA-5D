@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function openPhoto(photo) {
     photo.classList.add("active");
-    overlay.style.display = "block";
     document.body.classList.add("no-scroll");
   }
 
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     photos.forEach(photo => {
       photo.classList.remove("active");
     });
-    overlay.style.display = "none";
     document.body.classList.remove("no-scroll");
   }
 
