@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     photo.classList.add("active");
     overlay.style.display = "block";
     document.body.classList.add("no-scroll");
-    page.classList.add("blur");
   }
 
   function closeAll() {
@@ -18,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     overlay.style.display = "none";
     document.body.classList.remove("no-scroll");
-    page.classList.remove("blur");
   }
 
   photos.forEach(photo => {
