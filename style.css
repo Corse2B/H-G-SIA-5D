@@ -4,6 +4,9 @@ body{
   color:#EFA64B;
   text-align: center;
   }
+header{
+z-index:10;
+}
 .top-controls {
   display: flex;
   justify-content: flex-end; /* à droite */
