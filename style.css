@@ -12,6 +12,7 @@ body{
   margin-top: 10px;
 }
 .LienForm,
+.LienPage,
 #menu1,
 details {
   position: static;
@@ -292,6 +293,22 @@ position:sticky;
   text-decoration: none;
   font-size: 20px;      /* même taille que Lang */
   animation: fond 1s infinite;
+}
+.LienPage{
+   display: inline-block;
+  top: 0;
+  width: 100px;
+  height:auto;
+  border-radius: 10px; 
+  background-color:#2F4E69;
+  padding:5px;
+  position: sticky;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  color: #EFA64B;
+  text-decoration: none;
+  font-size: 20px;      /* même taille que Lang */
 }
 
 @keyframes fond {
