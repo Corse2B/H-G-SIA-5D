@@ -370,6 +370,7 @@ summary {
 
   header {
     padding: 20px 10px;
+    position:static;
   }
 
   .top-controls {
@@ -385,6 +386,9 @@ summary {
     max-width: 100%;
     box-sizing: border-box;
     font-size: 16px;
+  }
+  .content.active{
+  width:100%;
   }
 
   .photo {
