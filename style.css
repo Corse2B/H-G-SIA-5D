@@ -1,3 +1,4 @@
+
 body{
   margin:0;
   background-color:#0A2A43;
@@ -319,7 +320,8 @@ position:sticky;
   100% { background: #2F4E69; }
 }
 .LienPage:hover,
-#menu1:hover summary {
+#menu1:hover summary,
+#menu1:hover {
   color: #2F4E69;
   background-color:#EFA64B;
 }
