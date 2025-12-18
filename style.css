@@ -36,7 +36,7 @@ transition: transform 0.3s ease;
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1.8);
+  transform: translate(-50%, -50%) scale(1.5);
   z-index: 4000;   /* au-dessus de l’overlay */
 }
 
