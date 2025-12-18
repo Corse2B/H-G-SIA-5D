@@ -296,7 +296,7 @@ position:sticky;
   color: #EFA64B;
   text-decoration: none;
   font-size: 20px;      /* même taille que Lang */
-  animation: fond 2s infinite;
+  animation: fond 1s infinite;
 }
 .LienPage{
    display: inline-block;
