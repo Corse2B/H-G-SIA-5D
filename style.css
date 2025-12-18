@@ -336,9 +336,36 @@ summary {
 }
 @media (max-width: 768px) {
 
+  #Logo1,
+  #Logo2 {
+    display: none;
+  }
+
   body {
     font-size: 15px;
     padding: 0 10px;
+  }
+
+  #page {
+    position: relative;
+  }
+
+  #page::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("Logo1.png");
+    background-repeat: no-repeat;
+    background-position: center 120px;
+    background-size: 180px auto;
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  #page > * {
+    position: relative;
+    z-index: 1;
   }
 
   header {
@@ -390,5 +417,6 @@ summary {
     font-size: 12px;
     padding: 15px;
   }
+
 }
 
