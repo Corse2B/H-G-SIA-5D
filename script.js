@@ -2,44 +2,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const contents = document.querySelectorAll(".content");
   const overlay = document.getElementById("overlay");
-  const pageContent = document.getElementById("page-content");
+  const page = document.getElementById("page");
 
   function openContent(content) {
     content.classList.add("active");
     overlay.style.display = "block";
     document.body.classList.add("no-scroll");
-    pageContent.classList.add("blur");
+    page.classList.add("blur");
   }
 
-  function closeAllContent() {
+  function closeAllContents() {
     contents.forEach(c => c.classList.remove("active"));
     overlay.style.display = "none";
     document.body.classList.remove("no-scroll");
-    pageContent.classList.remove("blur");
+    page.classList.remove("blur");
   }
 
   contents.forEach(content => {
-    const closeBtn = content.querySelector(".close-btn");
-
     content.addEventListener("click", (e) => {
-      if (content.classList.contains("active")) return;
       e.stopPropagation();
-      closeAllContent();
-      openContent(content);
-    });
 
-    closeBtn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      closeAllContent();
+      if (content.classList.contains("active")) {
+        closeAllContents();
+      } else {
+        closeAllContents();
+        openContent(content);
+      }
     });
   });
 
-  overlay.addEventListener("click", closeAllContent);
+  overlay.addEventListener("click", closeAllContents);
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
-      closeAllContent();
+      closeAllContents();
     }
   });
 
 });
+
+
