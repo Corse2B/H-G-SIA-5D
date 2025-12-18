@@ -235,7 +235,7 @@ header h2 {
   filter: blur(6px);
   transition: filter 0.3s ease;
 }
-#BTMessage : hover{
+#BTMessage:hover{
 background-color:#2A3F55;
 border-color: #EFA64B;
 }
@@ -321,11 +321,10 @@ position:sticky;
   50%  { color:#2F4E69;} 
   100% { background: #2F4E69; }
 }
-.LienForm,
-.LienPage,
+.LienPage:hover,
 #menu1:hover {
-color: #2F4E69;
-background-color:#EFA64B;
+  color: #2F4E69;
+  background-color:#EFA64B;
 }
 .gallery {
   display: flex;
