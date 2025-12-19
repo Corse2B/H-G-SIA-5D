@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (dernierEnvoi && maintenant - dernierEnvoi < DELAI_ENVOI) {
       e.preventDefault();
       alert(
-        "Please wait before sending another message.\n\n" +
-        "Merci d’attendre avant d’envoyer un nouveau message."
+        "Merci d’attendre avant d’envoyer un nouveau message.\n\n" +
+        "Please wait before sending another message."
       );
       return;
     }
@@ -39,10 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const majuscules = lettres.replace(/[^A-Z]/g, "").length;
       if (majuscules / lettres.length > 0.7) {
         e.preventDefault();
-        alert(
-          "Please write your message in lowercase.\n\n" +
-          "Merci d’écrire votre message en minuscules."
-        );
+        alert("Comme il arrive que certains utilisateurs utilise des majuscules pour annuler les filtres anti-vulgarité merci d'écrire vos messages en minuscules\n\nMerci\n-----------------------------------------------------\nAs some users may use capital letters to bypass profanity filters, please write your messages in lowercase.\n\nThank you");
         return;
       }
     }
@@ -62,12 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let mot of motsInterdits) {
       if (messagePropre.includes(mot)) {
         e.preventDefault();
-        alert(
-          "Our filters have detected offensive language.\n" +
-          "Please moderate your language.\n\n" +
-          "Nos filtres ont détecté un langage offensant.\n" +
-          "Merci de modérer votre langage."
-        );
+        alert("Nos filtres on détecté des insultes.Merci de modéré votre language\n\nMerci\n-----------------------------------------------------\nOur filters have detected offensive language. Please moderate your language.\n\nThank you");
         return;
       }
     }
