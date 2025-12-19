@@ -46,7 +46,6 @@ Si vous avez une question, vous pouvez aussi l’écrire ci-dessous (ce message 
 <form action="https://formsubmit.co/bb0ce64b410d925dff0b443805b4f367" method="POST">
 
   <!-- 🔐 Sécurité anti-spam -->
-  <input type="hidden" name="_captcha" value="true">
   <input type="text" name="_honey" style="display:none">
 
   <!-- ⚙️ Options FormSubmit -->
@@ -84,6 +83,17 @@ Si vous avez une question, vous pouvez aussi l’écrire ci-dessous (ce message 
     autocomplete="off"
   >
   <br>
+ <div id="captcha-zone" style="display:none">
+  <p id="captcha-question"></p>
+
+  <input
+    type="text"
+    id="captcha-answer"
+    placeholder="Answer"
+    autocomplete="off"
+  >
+</div>
+<br>
 
   <!-- 🚀 Bouton -->
   <button id="BTMessage" type="submit">Envoyer</button>
