@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let mot of motsInterdits) {
       if (messagePropre.includes(mot)) {
         e.preventDefault();
-        alert("Nos filtres on détecté des insultes.Merci de modéré votre language\n\nMerci\n-----------------\n our filters have detected offensive language. Please moderate your language.\n\nThank you");
+        alert("Nos filtres on détecté des insultes.Merci de modéré votre language\n\nMerci\n-----------------\n Our filters have detected offensive language. Please moderate your language.\n\nThank you");
         return;
       }
     }
