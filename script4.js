@@ -4,9 +4,8 @@ const titleNormal = document.title;
 // Étapes en fonction du temps (en secondes)
 const steps = [
   { time: 0,  title: "Lecture en cours — Histoire-Géographie" },
-  { time: 15, title: "Notion clé du chapitre en cours" },
-  { time: 45, title: "Ce point est important pour le cours" },
-  { time: 90, title: "Reprendre la lecture — Histoire-Géographie" }
+  { time: 15, title: "Cliquez pour revenir" },
+  { time: 30, title: "Reprendre la lecture — Histoire-Géographie" }
 ];
 
 let startTime = null;
