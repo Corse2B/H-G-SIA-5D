@@ -33,7 +33,12 @@ if (registerForm) {
       password: password.value
     });
 
-    msg.textContent = error ? error.message : "Compte créé ✔️";
+    if (error) {
+      msg.textContent = error.message;
+    } else {
+      msg.textContent = "Compte créé ✔️";
+      location.href = "private.html"; // 🔁 redirection après inscription
+    }
   });
 }
 
@@ -55,3 +60,4 @@ if (logoutBtn) {
     location.href = "login.html";
   };
 }
+
