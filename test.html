@@ -19,10 +19,6 @@
  <span title=" (Cliquez pour plus de details)">
  <a href=Form.html class=LienForm>Formulaire</a>
 </span>
-<div id="authButtons">
-  <button id="loginBtn">Connexion</button>
-  <button id="registerBtn">Register</button>
-</div>
 
 </div>
   <span title="Photos">
@@ -38,11 +34,24 @@
   </div> 
   </details>
 </div>
+<div id="authButtons">
+  <button id="loginBtn">Connexion</button>
+  <button id="registerBtn">Register</button>
+</div>
+ <div id="authBox" style="display:none;">
+  <form id="loginForm">
+    <h3 id="authTitle">Connexion</h3>
+    <input type="email" id="email" required>
+    <input type="password" id="password" required>
+    <button id="submitAuth">Valider</button>
+    <p id="msg"></p>
+  </form>
 </header>
  <mon-image>
 <img id=Logo1  src="Logo1.png"/>
 <img id=Logo2  src="Logo1.png"/> 
  </mon-image>
+
 
 <div id="page">
  <div id="page-content">
@@ -51,14 +60,7 @@
 <audio id="intro" autoplay muted>
   <source src="medieval-bell-intro.wav" type="audio/wav">
 </audio>
-<div id="authBox" style="display:none;">
-  <form id="loginForm">
-    <h3 id="authTitle">Connexion</h3>
-    <input type="email" id="email" required>
-    <input type="password" id="password" required>
-    <button id="submitAuth">Valider</button>
-    <p id="msg"></p>
-  </form>
+
   
 <p class=content>
 <button class="close-btn">✖</button>
